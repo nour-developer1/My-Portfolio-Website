@@ -1,7 +1,7 @@
 //import React from "react";
 //import { AnimatePresence } from "framer-motion"; // Importing framer-motion for animations
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-//<BrowserRouter basename="/MyPortfolio"></BrowserRouter>;
+//<BrowserRouter basename="/The_Portfolio"></BrowserRouter>;
 import LandingPage from "./pages/LandingPage";
 import AboutPage from "./pages/AboutPage";
 import SkillsPage from "./pages/SkillsPage";
