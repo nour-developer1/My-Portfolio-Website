@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Link, useLocation } from "react-router-dom";
 //import { Home, User, Code, Briefcase, Laptop, FolderOpen, GraduationCap, Mail, Menu, X } from 'lucide-react';
 import {
-  //Home,
+  Home,
   User,
   Code,
   FolderOpen,
@@ -18,7 +18,7 @@ const Navigation: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navItems = [
-    //{ id: "/", label: "Home", icon: Home },
+    { id: "/", label: "Home", icon: Home },
     { id: "/about", label: "About", icon: User },
     { id: "/skills", label: "Skills", icon: Code },
     // { id: '/experience', label: 'Experience', icon: Briefcase },

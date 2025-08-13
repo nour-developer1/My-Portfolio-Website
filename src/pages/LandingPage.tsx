@@ -38,7 +38,8 @@ const LandingPage: React.FC = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 1 }}
           >
-            Nour El-Rouby
+            <span className="block sm:inline">Nour</span>{" "}
+            <span className="block sm:inline">El-Rouby</span>
           </motion.h1>
 
           <motion.div

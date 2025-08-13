@@ -7,7 +7,7 @@ const EducationPage: React.FC = () => {
     degree: "Computers and Artificial Intelligence student",
     specialization: "Double Major: AI & Data Science",
     institution: "Beni-Suef National University",
-    location: "El Minya, Egypt",
+    location: "Beni-Suef, Egypt",
     period: "2023 - 2027",
     description:
       "Comprehensive double major program covering computer science fundamentals and information systems specialization, including software engineering, database management, artificial intelligence, system analysis, and enterprise architecture.",
