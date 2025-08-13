@@ -60,7 +60,7 @@ const AboutPage: React.FC = () => {
       icon: GraduationCap,
       label: "Education",
       value: "Computers and Artificial Intelligence student",
-      description: "student in Beni-Suef National University (2023–2027)",
+      description: "Student in Beni-Suef National University (2023–2027)",
     },
     {
       icon: Briefcase,

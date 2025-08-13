@@ -161,8 +161,8 @@ const SkillsPage: React.FC = () => {
             </h1>
             <div className="w-24 h-1 bg-blue-500 mx-auto mb-8"></div>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Comprehensive technical expertise across AI, problem solving, data
-              science & cloud deployment
+              Comprehensive technical expertise across AI, Problem solving, Data
+              science & Cloud deployment
             </p>
           </motion.div>
 
@@ -174,7 +174,7 @@ const SkillsPage: React.FC = () => {
             className="text-center mb-16"
           >
             <a
-              href="img\Nour El-Rouby CV.pdf"
+              href="https://drive.google.com/file/d/1g_qTflK6HV5jA7aMyh-AutrCOLTgtpwl/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-3 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold transition-colors duration-300"
