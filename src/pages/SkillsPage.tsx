@@ -174,7 +174,7 @@ const SkillsPage: React.FC = () => {
             className="text-center mb-16"
           >
             <a
-              href="img\Nour_Elrouby_CV_Styled-1.pdf"
+              href="img\Nour El-Rouby CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-3 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold transition-colors duration-300"
