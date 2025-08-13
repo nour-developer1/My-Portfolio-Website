@@ -1,9 +1,9 @@
 {
-  "name": "nourportfolio",
+  "name": "nour_portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://nour-developer1.github.io/The_Portfolio/",
+  "homepage": "https://nour-developer1.github.io/nour_portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
