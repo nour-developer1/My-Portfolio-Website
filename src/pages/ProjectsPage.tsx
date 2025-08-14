@@ -11,7 +11,7 @@ const ProjectsPage: React.FC = () => {
       title: "IMDB Top 250 Movies Analysis",
       description:
         "Data analysis project exploring IMDB’s Top 250 movies to uncover trends in genres, ratings, release years, and audience preferences. The project highlights insights into what makes a movie critically acclaimed and popular among viewers.",
-      category: "Data Science",
+      category: "Data Analysis",
       technologies: [
         "Python",
         "Pandas",
@@ -35,6 +35,7 @@ const ProjectsPage: React.FC = () => {
       title: "Fitbit Health",
       description:
         "Comprehensive analysis of Fitbit fitness tracker data to understand daily activity patterns, sleep quality, and overall health trends. The project focuses on deriving actionable insights for healthier lifestyles through data exploration and visualization.",
+      category: "Data Analysis",
       technologies: ["Python", "Pandas", "Matplotlib", "Seaborn"],
       features: [
         "Cleaned and organized raw Fitbit dataset",
@@ -52,7 +53,7 @@ const ProjectsPage: React.FC = () => {
       title: "Amazon Web Scraping",
       description:
         "Developed a Python-based web scraping tool to extract product details, prices, and ratings from Amazon for price monitoring and market analysis. The project automates data collection to save time and ensure up-to-date insights.",
-      category: "Data Science",
+      category: "Data Analysis",
       technologies: [
         "Python",
         "Pandas",
@@ -75,7 +76,7 @@ const ProjectsPage: React.FC = () => {
       title: "Sales Analysis",
       description:
         "Conducted an in-depth analysis of sales data to uncover trends, measure performance, and identify key growth opportunities. Leveraged data visualization and statistical methods to support data-driven decision-making.",
-      category: "Data Science",
+      category: "Data Analysis",
       technologies: ["Python", "Pandas", "Matplotlib", "Seaborn", "Excel"],
       features: [
         "Natural language understanding",

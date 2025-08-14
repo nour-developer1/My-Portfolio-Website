@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from "react";
 
 const ParticleBackground: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -7,7 +7,7 @@ const ParticleBackground: React.FC = () => {
     const canvas = canvasRef.current;
     if (!canvas) return;
 
-    const ctx = canvas.getContext('2d');
+    const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
     const particles: Array<{
@@ -25,9 +25,11 @@ const ParticleBackground: React.FC = () => {
     };
 
     const createParticles = () => {
-      const particleCount = Math.floor((window.innerWidth * window.innerHeight) / 15000);
+      const particleCount = Math.floor(
+        (window.innerWidth * window.innerHeight) / 15000
+      );
       particles.length = 0;
-      
+
       for (let i = 0; i < particleCount; i++) {
         particles.push({
           x: Math.random() * canvas.width,
@@ -35,14 +37,14 @@ const ParticleBackground: React.FC = () => {
           vx: (Math.random() - 0.5) * 0.5,
           vy: (Math.random() - 0.5) * 0.5,
           size: Math.random() * 2 + 1,
-          opacity: Math.random() * 0.8 + 0.2
+          opacity: Math.random() * 0.8 + 0.2,
         });
       }
     };
 
     const animate = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-      
+
       particles.forEach((particle, index) => {
         particle.x += particle.vx;
         particle.y += particle.vy;
@@ -56,13 +58,13 @@ const ParticleBackground: React.FC = () => {
         ctx.fill();
 
         // Draw connections
-        particles.slice(index + 1).forEach(otherParticle => {
+        particles.slice(index + 1).forEach((otherParticle) => {
           const dx = particle.x - otherParticle.x;
           const dy = particle.y - otherParticle.y;
           const distance = Math.sqrt(dx * dx + dy * dy);
 
           if (distance < 100) {
-            const opacity = (100 - distance) / 100 * 0.3;
+            const opacity = ((100 - distance) / 100) * 0.3;
             ctx.beginPath();
             ctx.moveTo(particle.x, particle.y);
             ctx.lineTo(otherParticle.x, otherParticle.y);
@@ -80,13 +82,13 @@ const ParticleBackground: React.FC = () => {
     createParticles();
     animate();
 
-    window.addEventListener('resize', () => {
+    window.addEventListener("resize", () => {
       resizeCanvas();
       createParticles();
     });
 
     return () => {
-      window.removeEventListener('resize', resizeCanvas);
+      window.removeEventListener("resize", resizeCanvas);
     };
   }, []);
 
@@ -94,7 +96,9 @@ const ParticleBackground: React.FC = () => {
     <canvas
       ref={canvasRef}
       className="absolute inset-0 z-0"
-      style={{ background: 'linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%)' }}
+      style={{
+        background: "linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%)",
+      }}
     />
   );
 };

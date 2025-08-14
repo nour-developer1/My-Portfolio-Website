@@ -17,7 +17,7 @@ function App() {
       <div className="min-h-screen bg-white text-gray-900">
         <Navigation />
         <Routes>
-          <Route path="/nour_portfolio" element={<LandingPage />} />
+          <Route path="My-Portfolio-Website" element={<LandingPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/skills" element={<SkillsPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
