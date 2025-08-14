@@ -1,3 +1,52 @@
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
+import LandingPage from "./pages/LandingPage";
+import AboutPage from "./pages/AboutPage";
+import SkillsPage from "./pages/SkillsPage";
+import ProjectsPage from "./pages/ProjectsPage";
+import EducationPage from "./pages/EducationPage";
+import ContactPage from "./pages/ContactPage";
+import Navigation from "./components/Navigation";
+import "./index.css";
+
+function AppContent() {
+  const location = useLocation();
+
+  const hideNavOn = ["/My-Portfolio-Website"];
+
+  return (
+    <div className="min-h-screen bg-white text-gray-900">
+      {!hideNavOn.includes(location.pathname) && <Navigation />}
+      <Routes>
+        <Route path="My-Portfolio-Website" element={<LandingPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/skills" element={<SkillsPage />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/education" element={<EducationPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+      </Routes>
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <AppContent />
+    </Router>
+  );
+}
+
+export default App;
+
+//import ExperiencePage from "./pages/ExperiencePage";
+//import FreelancingPage from "./pages/FreelancingPage";
+
+/*
 //import React from "react";
 //import { AnimatePresence } from "framer-motion"; // Importing framer-motion for animations
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -31,10 +80,8 @@ function App() {
 
 export default App;
 
-//import ExperiencePage from "./pages/ExperiencePage";
-//import FreelancingPage from "./pages/FreelancingPage";
 
-/*function App() {
+function App() {
   return (
     <Router>
       <div className="min-h-screen bg-white text-gray-900">
