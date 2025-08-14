@@ -18,7 +18,7 @@ const Navigation: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navItems = [
-    { id: "/My-Portfolio-Website", label: "Home", icon: Home },
+    { id: "/", label: "Home", icon: Home },
     { id: "/about", label: "About", icon: User },
     { id: "/skills", label: "Skills", icon: Code },
     // { id: '/experience', label: 'Experience', icon: Briefcase },
@@ -47,11 +47,7 @@ const Navigation: React.FC = () => {
         <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
             {/* Logo */}
-            <Link
-              to="My-Portfolio-Website"
-              onClick={closeMobileMenu}
-              className="block"
-            >
+            <Link to="/" onClick={closeMobileMenu} className="block">
               <div className="text-2xl font-bold text-white">Nour El-Rouby</div>
             </Link>
 
