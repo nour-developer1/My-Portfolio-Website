@@ -32,7 +32,7 @@ function AppContent() {
     </div>
   );
 }
-
+// AppContent component handles the main content and navigation
 function App() {
   return (
     <Router>
