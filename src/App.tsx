@@ -20,6 +20,7 @@ function AppContent() {
 
   return (
     <div className="min-h-screen bg-white text-gray-900">
+      {/* Render Navigation only if the current path is not in hideNavOn */}
       {!hideNavOn.includes(location.pathname) && <Navigation />}
       <Routes>
         <Route path="My-Portfolio-Website" element={<LandingPage />} />
