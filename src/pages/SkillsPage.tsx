@@ -140,7 +140,7 @@ const SkillsPage: React.FC = () => {
     },
     {
       title: "Introduction to Data Science ",
-      issuer: "cisco networking academy",
+      issuer: "Cisco Networking Academy",
       year: "2025",
     },
   ];

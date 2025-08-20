@@ -13,8 +13,8 @@ const ProjectsPage: React.FC = () => {
         "Data analysis project exploring IMDB’s Top 250 movies to uncover trends in genres, ratings, release years, and audience preferences. The project highlights insights into what makes a movie critically acclaimed and popular among viewers.",
       category: "Data Analysis",
       technologies: [
-        "Python",
-        "Pandas",
+        "CSV",
+        "Data Modeling & Visualization",
         "Power BI Desktop",
         "DAX",
         "Power Query",
@@ -38,8 +38,8 @@ const ProjectsPage: React.FC = () => {
         "Comprehensive analysis of Fitbit fitness tracker data to understand daily activity patterns, sleep quality, and overall health trends. The project focuses on deriving actionable insights for healthier lifestyles through data exploration and visualization.",
       category: "Data Analysis",
       technologies: [
-        "Python",
-        "Pandas",
+        "APIs",
+        "Data Modeling & Visualization ",
         "Power BI Desktop",
         "DAX",
         "Power Query",
@@ -77,7 +77,8 @@ const ProjectsPage: React.FC = () => {
       ],
       icon: Code,
       status: "Completed",
-      github: "https://github.com/nour-developer1/Amazon-Web-Scraper-Project",
+      github:
+        "https://github.com/nour-developer1/Amazon-Web-Scraper-Project/blob/main/Amazon%20Web%20Scraper%20Project.ipynb",
     },
     {
       title: "Sales Analysis",
@@ -92,7 +93,7 @@ const ProjectsPage: React.FC = () => {
         "Non-judgmental environment",
       ],
       icon: Brain,
-      status: "Incompleted",
+      status: "Completed",
       github: "#",
     },
   ];

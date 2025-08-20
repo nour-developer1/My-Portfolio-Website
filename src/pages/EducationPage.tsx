@@ -10,7 +10,7 @@ const EducationPage: React.FC = () => {
     location: "Beni-Suef, Egypt",
     period: "2023 - 2027",
     description:
-      "Comprehensive double major program covering computer science fundamentals and information systems specialization, including software engineering, database management, artificial intelligence, system analysis, and enterprise architecture.",
+      "Comprehensive Double Major Program Covering Artificial Intelligence and Data Science, Including Machine Learning, Deep Learning, Natural Language Processing, Predictive Analytics, Big Data Management, Statistical Modeling, and Ethical AI Applications.",
     gpa: "very good",
     honors: "Magna Cum Laude",
   };
@@ -49,7 +49,7 @@ const EducationPage: React.FC = () => {
     },
     {
       title: "Introduction to Data Science ",
-      issuer: "cisco networking academy",
+      issuer: "Cisco Networking Academy",
       year: "2025",
       type: "Professional Certification",
     },
