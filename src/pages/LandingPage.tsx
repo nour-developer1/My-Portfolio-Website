@@ -51,9 +51,9 @@ const LandingPage: React.FC = () => {
             <TypewriterText
               texts={[
                 "AI Engineer",
-                "Problem Solver",
-                "Data Analyst",
                 "Machine Learning Engineer",
+                "Data Analyst",
+                "Problem Solver",
               ]}
               delay={2000}
             />

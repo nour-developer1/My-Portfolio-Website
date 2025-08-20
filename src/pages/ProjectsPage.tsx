@@ -15,9 +15,9 @@ const ProjectsPage: React.FC = () => {
       technologies: [
         "Python",
         "Pandas",
-        "Matplotlib",
-        "Seaborn",
-        "Data Analysis",
+        "Power BI Desktop",
+        "DAX",
+        "Power Query",
       ],
       features: [
         "Cleaned and processed IMDB dataset",
@@ -30,13 +30,20 @@ const ProjectsPage: React.FC = () => {
       ],
       icon: Shield,
       status: "Completed",
+      github: "https://github.com/nour-developer1/IMDB-Movies-Analysis",
     },
     {
       title: "Fitbit Health",
       description:
         "Comprehensive analysis of Fitbit fitness tracker data to understand daily activity patterns, sleep quality, and overall health trends. The project focuses on deriving actionable insights for healthier lifestyles through data exploration and visualization.",
       category: "Data Analysis",
-      technologies: ["Python", "Pandas", "Matplotlib", "Seaborn"],
+      technologies: [
+        "Python",
+        "Pandas",
+        "Power BI Desktop",
+        "DAX",
+        "Power Query",
+      ],
       features: [
         "Cleaned and organized raw Fitbit dataset",
 
@@ -47,7 +54,7 @@ const ProjectsPage: React.FC = () => {
       ],
       icon: Heart,
       status: "Completed",
-      github: "#",
+      github: "https://github.com/nour-developer1/Fitbit-Health-Dashboard",
     },
     {
       title: "Amazon Web Scraping",
@@ -70,7 +77,7 @@ const ProjectsPage: React.FC = () => {
       ],
       icon: Code,
       status: "Completed",
-      github: "#",
+      github: "https://github.com/nour-developer1/Amazon-Web-Scraper-Project",
     },
     {
       title: "Sales Analysis",
@@ -85,7 +92,7 @@ const ProjectsPage: React.FC = () => {
         "Non-judgmental environment",
       ],
       icon: Brain,
-      status: "Completed",
+      status: "Incompleted",
       github: "#",
     },
   ];
