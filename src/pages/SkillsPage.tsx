@@ -193,9 +193,9 @@ const SkillsPage: React.FC = () => {
           >
             {[
               { label: "Years Experience", value: "2+", icon: TrendingUp },
-              { label: "Projects Completed", value: "9+", icon: CheckCircle },
+              { label: "Projects Completed", value: "20+", icon: CheckCircle },
               { label: "Technologies Mastered", value: "35+", icon: Code },
-              { label: "Certifications", value: "8+", icon: Award },
+              { label: "Certifications", value: "15+", icon: Award },
             ].map((stat, index) => {
               const Icon = stat.icon;
               return (
