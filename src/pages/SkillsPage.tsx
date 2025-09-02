@@ -192,6 +192,7 @@ const SkillsPage: React.FC = () => {
             className="grid md:grid-cols-4 gap-8 mb-16"
           >
             {[
+              // test
               { label: "Years Experience", value: "2+", icon: TrendingUp },
               { label: "Projects Completed", value: "20+", icon: CheckCircle },
               { label: "Technologies Mastered", value: "35+", icon: Code },
