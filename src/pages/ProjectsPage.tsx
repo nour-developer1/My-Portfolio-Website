@@ -34,29 +34,27 @@ const ProjectsPage: React.FC = () => {
         "https://github.com/nour-developer1/Movie-Portfolio-Project/blob/5fa24cd1545fe61443baf70b629e663261d959b8/Movie%20Portfolio%20Project.ipynb",
     },
     {
-      title: "IMDB Top 250 Movies Analysis",
+      title: "Automated API Data Extraction & Appending",
       description:
-        "Data analysis project exploring IMDB’s Top 250 movies to uncover trends in genres, ratings, release years, and audience preferences. The project highlights insights into what makes a movie critically acclaimed and popular among viewers.",
-      category: "Data Analysis",
+        "A data engineering project focused on building an automated pipeline to extract data from APIs, transform it, and append it to existing datasets for continuous integration. This project ensures real-time data availability, reduces manual intervention, and supports scalable analytics by automating the entire data ingestion and transformation process.",
+      category: "Data Engineering",
       technologies: [
-        "Power BI",
-        "Power Query",
-        "DAX",
-        "APIs",
-        "Data Modeling & Visualization",
+        "Python",
+        "Pandas",
+        "Scheduling (Cron/Task Scheduler)",
+        "APIs (REST/JSON)",
+        "Data Cleaning & Transformation",
       ],
       features: [
-        "Cleaned and processed IMDB dataset",
-
-        "Visualized rating distributions and genre trends",
-
-        "Identified top directors and actors in the Top 250 list",
-
-        "Analyzed correlations between ratings, votes, and release years",
+        "Automated API extraction for dynamic datasets",
+        "Implemented logic to append new records to existing data without duplication",
+        "Applied robust error handling and logging for reliability",
+        "Designed modular scripts for reusability across multiple APIs",
+        "Ensured data consistency and readiness for downstream analytics",
       ],
-      icon: Shield,
+      icon: Brain,
       status: "Completed",
-      github: "https://github.com/nour-developer1/IMDB-Movies-Analysis",
+      github: "https://github.com/nour-developer1/Data-Automation-Project",
     },
     {
       title: "Fitbit Health",
@@ -100,6 +98,31 @@ const ProjectsPage: React.FC = () => {
       github: "#",
     },
     {
+      title: "IMDB Top 250 Movies Analysis",
+      description:
+        "Data analysis project exploring IMDB’s Top 250 movies to uncover trends in genres, ratings, release years, and audience preferences. The project highlights insights into what makes a movie critically acclaimed and popular among viewers.",
+      category: "Data Analysis",
+      technologies: [
+        "Power BI",
+        "Power Query",
+        "DAX",
+        "APIs",
+        "Data Modeling & Visualization",
+      ],
+      features: [
+        "Cleaned and processed IMDB dataset",
+
+        "Visualized rating distributions and genre trends",
+
+        "Identified top directors and actors in the Top 250 list",
+
+        "Analyzed correlations between ratings, votes, and release years",
+      ],
+      icon: Shield,
+      status: "Completed",
+      github: "https://github.com/nour-developer1/IMDB-Movies-Analysis",
+    },
+    {
       title: "Amazon Web Scraping",
       description:
         "Developed a Python-based web scraping tool to extract product details, prices, and ratings from Amazon for price monitoring and market analysis. The project automates data collection to save time and ensure up-to-date insights.",
@@ -122,29 +145,6 @@ const ProjectsPage: React.FC = () => {
       status: "Completed",
       github:
         "https://github.com/nour-developer1/Amazon-Web-Scraper-Project/blob/main/Amazon%20Web%20Scraper%20Project.ipynb",
-    },
-    {
-      title: "Automated API Data Extraction & Appending",
-      description:
-        "A data engineering project focused on building an automated pipeline to extract data from APIs, transform it, and append it to existing datasets for continuous integration. This project ensures real-time data availability, reduces manual intervention, and supports scalable analytics by automating the entire data ingestion and transformation process.",
-      category: "Data Analysis",
-      technologies: [
-        "Python",
-        "Pandas",
-        "Scheduling (Cron/Task Scheduler)",
-        "APIs (REST/JSON)",
-        "Data Cleaning & Transformation",
-      ],
-      features: [
-        "Automated API extraction for dynamic datasets",
-        "Implemented logic to append new records to existing data without duplication",
-        "Applied robust error handling and logging for reliability",
-        "Designed modular scripts for reusability across multiple APIs",
-        "Ensured data consistency and readiness for downstream analytics",
-      ],
-      icon: Brain,
-      status: "Completed",
-      github: "https://github.com/nour-developer1/Data-Automation-Project",
     },
   ];
 
