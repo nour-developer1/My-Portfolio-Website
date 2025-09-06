@@ -8,6 +8,32 @@ const ProjectsPage: React.FC = () => {
 
   const projects = [
     {
+      title: "Movie Portfolio Project",
+      description:
+        "Developed a Python-based data analysis project to explore and visualize movie datasets. The project covers data collection, cleaning, and exploratory data analysis (EDA) to uncover insights into movie performance, ratings, and trends. It highlights the use of data visualization to tell compelling stories and is structured as a project for demonstrating analytics capabilities.",
+      category: "Data Analysis",
+      technologies: [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Seaborn",
+        "Statsmodels",
+        "Plotly",
+      ],
+      features: [
+        "Data cleaning and preprocessing for reliable analysis",
+        "Exploratory data analysis (EDA) of movie revenues, budgets, ratings, and genres",
+        "Visualization of key trends with Matplotlib and Seaborn",
+        "Insights into relationships such as budget vs. revenue and genre-based performance",
+        "Portfolio-ready notebook for showcasing data storytelling",
+      ],
+      icon: Brain,
+      status: "Completed",
+      github:
+        "https://github.com/nour-developer1/Movie-Portfolio-Project/blob/5fa24cd1545fe61443baf70b629e663261d959b8/Movie%20Portfolio%20Project.ipynb",
+    },
+    {
       title: "IMDB Top 250 Movies Analysis",
       description:
         "Data analysis project exploring IMDB’s Top 250 movies to uncover trends in genres, ratings, release years, and audience preferences. The project highlights insights into what makes a movie critically acclaimed and popular among viewers.",
@@ -58,6 +84,22 @@ const ProjectsPage: React.FC = () => {
       github: "https://github.com/nour-developer1/Fitbit-Health-Dashboard",
     },
     {
+      title: "Sales Analysis",
+      description:
+        "Conducted an in-depth analysis of sales data to uncover trends, measure performance, and identify key growth opportunities. Leveraged data visualization and statistical methods to support data-driven decision-making.",
+      category: "Data Analysis",
+      technologies: ["Python", "Pandas", "Matplotlib", "Seaborn", "Excel"],
+      features: [
+        "Natural language understanding",
+        "Mental health resource provision",
+        "Empathetic response generation",
+        "Non-judgmental environment",
+      ],
+      icon: Brain,
+      status: "Completed",
+      github: "#",
+    },
+    {
       title: "Amazon Web Scraping",
       description:
         "Developed a Python-based web scraping tool to extract product details, prices, and ratings from Amazon for price monitoring and market analysis. The project automates data collection to save time and ensure up-to-date insights.",
@@ -82,20 +124,27 @@ const ProjectsPage: React.FC = () => {
         "https://github.com/nour-developer1/Amazon-Web-Scraper-Project/blob/main/Amazon%20Web%20Scraper%20Project.ipynb",
     },
     {
-      title: "Sales Analysis",
+      title: "Automated API Data Extraction & Appending",
       description:
-        "Conducted an in-depth analysis of sales data to uncover trends, measure performance, and identify key growth opportunities. Leveraged data visualization and statistical methods to support data-driven decision-making.",
+        "A data engineering project focused on building an automated pipeline to extract data from APIs, transform it, and append it to existing datasets for continuous integration. This project ensures real-time data availability, reduces manual intervention, and supports scalable analytics by automating the entire data ingestion and transformation process.",
       category: "Data Analysis",
-      technologies: ["Python", "Pandas", "Matplotlib", "Seaborn", "Excel"],
+      technologies: [
+        "Python",
+        "Pandas",
+        "Scheduling (Cron/Task Scheduler)",
+        "APIs (REST/JSON)",
+        "Data Cleaning & Transformation",
+      ],
       features: [
-        "Natural language understanding",
-        "Mental health resource provision",
-        "Empathetic response generation",
-        "Non-judgmental environment",
+        "Automated API extraction for dynamic datasets",
+        "Implemented logic to append new records to existing data without duplication",
+        "Applied robust error handling and logging for reliability",
+        "Designed modular scripts for reusability across multiple APIs",
+        "Ensured data consistency and readiness for downstream analytics",
       ],
       icon: Brain,
       status: "Completed",
-      github: "#",
+      github: "https://github.com/nour-developer1/Data-Automation-Project",
     },
   ];
 
