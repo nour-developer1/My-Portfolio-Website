@@ -82,20 +82,21 @@ const ProjectsPage: React.FC = () => {
       github: "https://github.com/nour-developer1/Fitbit-Health-Dashboard",
     },
     {
-      title: "Sales Analysis",
+      title: "Telecom Customer Churn Analysis",
       description:
-        "Conducted an in-depth analysis of sales data to uncover trends, measure performance, and identify key growth opportunities. Leveraged data visualization and statistical methods to support data-driven decision-making.",
-      category: "Data Analysis",
-      technologies: ["Python", "Pandas", "Matplotlib", "Seaborn", "Excel"],
+        "Comprehensive data science project analyzing customer churn patterns in telecommunications. Utilizes machine learning techniques to predict customer retention and identify key factors.",
+      category: "Data Science",
+      technologies: ["Python", "Pandas", "Scikit-learn", "Data Visualization"],
       features: [
-        "Natural language understanding",
-        "Mental health resource provision",
-        "Empathetic response generation",
-        "Non-judgmental environment",
+        "Customer behavior analysis",
+        "Churn prediction models",
+        "Feature importance identification",
+        "Interactive data visualizations",
       ],
       icon: Brain,
       status: "Completed",
-      github: "#",
+      github:
+        "https://github.com/nour-developer1/CodeClause-DataScience/blob/11e701a351f01347119e9562b4eba81195762a80/Telcom-Customer-Chrun.ipynb",
     },
     {
       title: "IMDB Top 250 Movies Analysis",
