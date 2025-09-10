@@ -93,7 +93,7 @@ const ProjectsPage: React.FC = () => {
         "Feature importance identification",
         "Interactive data visualizations",
       ],
-      icon: Brain,
+      icon: Code,
       status: "Completed",
       github:
         "https://github.com/nour-developer1/CodeClause-DataScience/blob/11e701a351f01347119e9562b4eba81195762a80/Telcom-Customer-Chrun.ipynb",
