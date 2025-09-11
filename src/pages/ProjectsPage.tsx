@@ -96,7 +96,7 @@ const ProjectsPage: React.FC = () => {
       icon: Code,
       status: "Completed",
       github:
-        "https://github.com/nour-developer1/CodeClause-DataScience/blob/34ffc7c4c01c3ed98caa53354bf6029a6fb9ee4f/Telcom-Customer-Chrun.ipynb",
+        "https://github.com/nour-developer1/CodeClause-DataScience/blob/main/Telcom-Customer-Chrun.ipynb",
     },
     {
       title: "IMDB Top 250 Movies Analysis",
