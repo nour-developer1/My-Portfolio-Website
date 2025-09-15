@@ -35,7 +35,7 @@ const EducationPage: React.FC = () => {
       type: "Specialization",
     },
     {
-      title: "AI Knowledge Badge",
+      title: "Generative AI",
       issuer: "SAS",
       year: "2025",
       type: "Specialization",

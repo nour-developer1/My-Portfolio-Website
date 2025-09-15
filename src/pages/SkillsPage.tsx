@@ -128,8 +128,8 @@ const SkillsPage: React.FC = () => {
       year: "2025",
     },
     {
-      title: "AI Knowledge Badge",
-      issuer: "SAS",
+      title: "Applied Deep Learning",
+      issuer: "NVIDIA",
       year: "2025",
     },
     {

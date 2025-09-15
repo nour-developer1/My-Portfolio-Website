@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
-import { Laptop, Palette, Video, Brain, Users, DollarSign } from "lucide-react";
+import { Laptop, Palette, Brain, Users } from "lucide-react";
 
 const FreelancingPage: React.FC = () => {
   const navigate = useNavigate();
@@ -31,7 +31,7 @@ const FreelancingPage: React.FC = () => {
     {
       title: "AI Engineer Freelance",
       icon: Brain,
-      period: "2023 - Present",
+      period: "2025 - Present",
       description:
         "Designed and implemented custom AI models to meet client-specific needs across various industries.",
       achievements: ["Delivered 2+ custom AI solutions for different clients"],
@@ -70,8 +70,9 @@ const FreelancingPage: React.FC = () => {
             </h1>
             <div className="w-24 h-1 bg-blue-500 mx-auto mb-8"></div>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Building diverse solutions and creative content for clients
-              worldwide
+              Building diverse solutions in AI and Data Analytics to empower
+              businesses and communities with intelligent innovation for clients
+              worldwide.
             </p>
           </motion.div>
 

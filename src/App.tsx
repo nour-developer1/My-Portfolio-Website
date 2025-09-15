@@ -27,9 +27,9 @@ function AppContent() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/skills" element={<SkillsPage />} />
+        <Route path="/freelancing" element={<FreelancingPage />} />
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/education" element={<EducationPage />} />
-        <Route path="/freelancing" element={<FreelancingPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </div>
