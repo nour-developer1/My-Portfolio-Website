@@ -10,6 +10,7 @@ import AboutPage from "./pages/AboutPage";
 import SkillsPage from "./pages/SkillsPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import EducationPage from "./pages/EducationPage";
+import FreelancingPage from "./pages/FreelancingPage";
 import ContactPage from "./pages/ContactPage";
 import Navigation from "./components/Navigation";
 import "./index.css";
@@ -28,6 +29,7 @@ function AppContent() {
         <Route path="/skills" element={<SkillsPage />} />
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/education" element={<EducationPage />} />
+        <Route path="/freelancing" element={<FreelancingPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </div>

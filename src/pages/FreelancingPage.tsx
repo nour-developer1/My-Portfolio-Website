@@ -1,57 +1,57 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { useNavigate } from 'react-router-dom';
-import { Laptop, Palette, Video, Brain, Users, DollarSign } from 'lucide-react';
+import React from "react";
+import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
+import { Laptop, Palette, Video, Brain, Users, DollarSign } from "lucide-react";
 
 const FreelancingPage: React.FC = () => {
   const navigate = useNavigate();
 
   const freelanceProjects = [
     {
-      title: 'Social Media Posts Designer',
+      title: "Data Analyst Freelance",
       icon: Palette,
-      period: '2022 - 2023',
-      description: 'Designed engaging and visually appealing social media posts for a variety of clients across different industries.',
+      period: "2025 – Present",
+      description:
+        "Analyzed and interpreted complex datasets to provide actionable insights, optimize business processes, and support data-driven decision-making for diverse industries.",
       achievements: [
-        'Created 100+ social media designs for various brands',
-        'Increased client engagement rates by 40% on average'
+        "Delivered 20+ analytical reports and dashboards improving client operational efficiency and strategic planning.",
+        "Designed automated data pipelines, reducing manual reporting time by 40%.",
+        "Supported clients with predictive and prescriptive analytics for improved forecasting accuracy.",
       ],
-      skills: ['Adobe Photoshop', 'Canva', 'Brand Design', 'Social Media Marketing'],
-      clients: '4'
+      skills: [
+        "Data Visualization",
+        "SQL",
+        "Python (Pandas, NumPy)",
+        "Power BI / Tableau",
+        "Data Cleaning & Transformation",
+        "Predictive Analytics",
+      ],
+      clients: "4",
     },
     {
-      title: 'Content Creator at StemTech',
-      icon: Video,
-      period: '2023',
-      description: 'Created engaging educational content for the third season of "Taalam ElBarmaga," a TV program focused on teaching front-end web development skills.',
-      achievements: [
-        'Developed curriculum for HTML, CSS, and JavaScript',
-        'Created interactive coding examples and exercises',
-        'Produced educational videos watched by 10,000+ viewers',
-        'Simplified complex programming concepts for beginners'
-      ],
-      skills: ['Content Creation', 'Video Production', 'Web Development', 'Education'],
-      clients: '1'
-    },
-    {
-      title: 'AI Engineer Freelance',
+      title: "AI Engineer Freelance",
       icon: Brain,
-      period: '2023 - Present',
-      description: 'Designed and implemented custom AI models to meet client-specific needs across various industries.',
-      achievements: [
-        'Delivered 15+ custom AI solutions for different clients'      ],
-      skills: ['Machine Learning', 'Computer Vision', 'NLP', 'Custom AI Solutions'],
-      clients: '20+'
-    }
+      period: "2023 - Present",
+      description:
+        "Designed and implemented custom AI models to meet client-specific needs across various industries.",
+      achievements: ["Delivered 2+ custom AI solutions for different clients"],
+      skills: [
+        "Machine Learning",
+        "Computer Vision",
+        "NLP",
+        "Custom AI Solutions",
+      ],
+      clients: "2+",
+    },
   ];
 
   const stats = [
-    { icon: Users, label: 'Total Clients', value: '35+' },
-    { icon: Laptop, label: 'Projects Completed', value: '50+' }
+    { icon: Users, label: "Total Clients", value: "8+" },
+    { icon: Laptop, label: "Projects Completed", value: "20+" },
   ];
 
   const handleGetInTouch = () => {
-    navigate('/contact');
+    navigate("/contact");
   };
 
   return (
@@ -70,7 +70,8 @@ const FreelancingPage: React.FC = () => {
             </h1>
             <div className="w-24 h-1 bg-blue-500 mx-auto mb-8"></div>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Building diverse solutions and creative content for clients worldwide
+              Building diverse solutions and creative content for clients
+              worldwide
             </p>
           </motion.div>
 
@@ -87,7 +88,9 @@ const FreelancingPage: React.FC = () => {
                 <div key={index} className="text-center">
                   <div className="bg-zinc-900 rounded-lg p-6 border border-zinc-800">
                     <Icon size={32} className="text-blue-500 mx-auto mb-4" />
-                    <h3 className="text-3xl font-bold text-white mb-2">{stat.value}</h3>
+                    <h3 className="text-3xl font-bold text-white mb-2">
+                      {stat.value}
+                    </h3>
                     <p className="text-gray-400">{stat.label}</p>
                   </div>
                 </div>
@@ -114,7 +117,9 @@ const FreelancingPage: React.FC = () => {
                       <Icon size={24} className="text-white" />
                     </div>
                     <div>
-                      <h2 className="text-2xl font-bold text-white">{project.title}</h2>
+                      <h2 className="text-2xl font-bold text-white">
+                        {project.title}
+                      </h2>
                       <p className="text-gray-400">{project.period}</p>
                     </div>
                   </div>
@@ -124,10 +129,15 @@ const FreelancingPage: React.FC = () => {
                   <div className="grid lg:grid-cols-3 gap-8">
                     {/* Achievements */}
                     <div className="lg:col-span-2">
-                      <h3 className="font-semibold text-white mb-4">Key Achievements</h3>
+                      <h3 className="font-semibold text-white mb-4">
+                        Key Achievements
+                      </h3>
                       <div className="space-y-3 mb-6">
                         {project.achievements.map((achievement, achIndex) => (
-                          <div key={achIndex} className="flex items-start space-x-3">
+                          <div
+                            key={achIndex}
+                            className="flex items-start space-x-3"
+                          >
                             <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
                             <span className="text-gray-300">{achievement}</span>
                           </div>
@@ -136,7 +146,9 @@ const FreelancingPage: React.FC = () => {
 
                       {/* Skills */}
                       <div>
-                        <h4 className="font-semibold text-white mb-3">Skills Used</h4>
+                        <h4 className="font-semibold text-white mb-3">
+                          Skills Used
+                        </h4>
                         <div className="flex flex-wrap gap-2">
                           {project.skills.map((skill, skillIndex) => (
                             <span
@@ -165,11 +177,14 @@ const FreelancingPage: React.FC = () => {
             className="text-center"
           >
             <div className="bg-zinc-900 rounded-lg p-8 border border-zinc-800">
-              <h3 className="text-2xl font-bold text-white mb-4">Ready to Work Together?</h3>
+              <h3 className="text-2xl font-bold text-white mb-4">
+                Ready to Work Together?
+              </h3>
               <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
-                I'm always interested in discussing new projects and opportunities. 
-                Whether you need AI solutions, backend development, or creative content, 
-                let's bring your ideas to life.
+                I'm always interested in discussing new projects and
+                opportunities. Whether you need AI solutions, backend
+                development, or creative content, let's bring your ideas to
+                life.
               </p>
               <button
                 onClick={handleGetInTouch}

@@ -10,6 +10,7 @@ import {
   GraduationCap,
   Mail,
   Menu,
+  Laptop,
   X,
 } from "lucide-react";
 
@@ -22,9 +23,9 @@ const Navigation: React.FC = () => {
     { id: "/about", label: "About", icon: User },
     { id: "/skills", label: "Skills", icon: Code },
     // { id: '/experience', label: 'Experience', icon: Briefcase },
-    // { id: '/freelancing', label: 'Freelancing', icon: Laptop },
     { id: "/projects", label: "Projects", icon: FolderOpen },
     { id: "/education", label: "Education", icon: GraduationCap },
+    { id: "/freelancing", label: "Freelancing", icon: Laptop },
     { id: "/contact", label: "Contact", icon: Mail },
   ];
 
