@@ -147,6 +147,56 @@ const ProjectsPage: React.FC = () => {
       github:
         "https://github.com/nour-developer1/Amazon-Web-Scraper-Project/blob/main/Amazon%20Web%20Scraper%20Project.ipynb",
     },
+    {
+      title: "Market Basket Analysis",
+      description:
+        "Comprehensive data science project applying association rule mining on retail transactions. Utilizes Apriori/FP-Growth algorithms to uncover frequent itemsets, generate association rules, and provide insights for product bundling, promotions, and recommendations.",
+      category: "Data Science",
+      technologies: [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "Requests",
+        "Data Visualization (Matplotlib / Plotly)",
+      ],
+      features: [
+        "Frequent itemset mining with Apriori/FP-Growth",
+
+        "Association rule generation (support, confidence, lift, conviction)",
+
+        "Rule pruning and redundancy elimination",
+
+        "Interactive data visualizations (heatmaps, network graphs)",
+
+        "Exportable rules for CRM/CDP or recommendation engines",
+      ],
+      icon: Brain,
+      status: "Completed",
+      github: "https://github.com/nour-developer1/Market-Basket-analysis",
+    },
+    {
+      title: "Mental Health Chatbot",
+      description:
+        "AI-powered chatbot designed to provide mental health support and resources. Uses natural language processing to understand user concerns and provide appropriate responses and guidance.",
+      category: "NLP & AI",
+      technologies: [
+        "Technologies Used",
+        "Python",
+        "NLP",
+        "Machine Learning",
+        "Chatbot Development",
+      ],
+      features: [
+        "Natural language understanding",
+        "Mental health resource provision",
+        "Empathetic response generation",
+        "Non-judgmental environment",
+      ],
+      icon: Heart,
+      status: "In Progress",
+      github: "https://github.com/nour-developer1/Mental-Health-Chatbot",
+    },
   ];
 
   return (

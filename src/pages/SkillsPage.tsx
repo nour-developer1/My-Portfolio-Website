@@ -128,8 +128,8 @@ const SkillsPage: React.FC = () => {
       year: "2025",
     },
     {
-      title: "Applied Deep Learning",
-      issuer: "NVIDIA",
+      title: "Generative AI",
+      issuer: "SAS",
       year: "2025",
     },
     {
@@ -139,8 +139,8 @@ const SkillsPage: React.FC = () => {
       year: "2025",
     },
     {
-      title: "Introduction to Data Science ",
-      issuer: "Cisco Networking Academy",
+      title: "Applied Deep Learning",
+      issuer: "NVIDIA",
       year: "2025",
     },
   ];
