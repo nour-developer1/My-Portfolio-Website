@@ -3,7 +3,7 @@
 [![Deploy](https://img.shields.io/badge/Deploy-GitHub%20Pages-blue)](https://nour-developer1.github.io/My-Portfolio-Website/)  
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
 [![Status](https://img.shields.io/badge/Status-Live-success)](https://nour-developer1.github.io/My-Portfolio-Website/)  
-[![Made with HTML, CSS, JS, TypeScript](https://img.shields.io/badge/Made%20with-HTML%2C%20CSS%2C%20JS-orange)](#-tech-stack)  
+[![Made with HTML, CSS, JS](https://img.shields.io/badge/Made%20with-HTML%2C%20CSS%2C%20JS-orange)](#-tech-stack)  
 
 ---
 
