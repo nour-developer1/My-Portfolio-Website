@@ -86,12 +86,20 @@ const ProjectsPage: React.FC = () => {
       description:
         "Comprehensive data science project analyzing customer churn patterns in telecommunications. Utilizes machine learning techniques to predict customer retention and identify key factors.",
       category: "Data Science",
-      technologies: ["Python", "Pandas", "Scikit-learn", "Data Visualization"],
+      technologies: [
+        "Python",
+        "Pandas",
+        "Scikit-learn",
+        "Data Visualization",
+        "Data Cleaning",
+        "Feature Engineering",
+      ],
       features: [
         "Customer behavior analysis",
         "Churn prediction models",
         "Feature importance identification",
         "Interactive data visualizations",
+        "Assessed model performance using ROC-AUC, precision-recall, F1 score, and confusion matrix",
       ],
       icon: Code,
       status: "Completed",
@@ -124,30 +132,6 @@ const ProjectsPage: React.FC = () => {
       github: "https://github.com/nour-developer1/IMDB-Movies-Analysis",
     },
     {
-      title: "Amazon Web Scraping",
-      description:
-        "Developed a Python-based web scraping tool to extract product details, prices, and ratings from Amazon for price monitoring and market analysis. The project automates data collection to save time and ensure up-to-date insights.",
-      category: "Data Analysis",
-      technologies: [
-        "Python",
-        "Pandas",
-        "Scikit-learn",
-        "BeautifulSoup",
-        "Requests",
-      ],
-      features: [
-        "Automated extraction of product names, prices, and ratings",
-
-        "Data cleaning and organization for further analysis",
-        "Capability to monitor price changes over time",
-        "Easily adaptable to different product categories",
-      ],
-      icon: Code,
-      status: "Completed",
-      github:
-        "https://github.com/nour-developer1/Amazon-Web-Scraper-Project/blob/main/Amazon%20Web%20Scraper%20Project.ipynb",
-    },
-    {
       title: "Market Basket Analysis",
       description:
         "Comprehensive data science project applying association rule mining on retail transactions. Utilizes Apriori/FP-Growth algorithms to uncover frequent itemsets, generate association rules, and provide insights for product bundling, promotions, and recommendations.",
@@ -173,7 +157,32 @@ const ProjectsPage: React.FC = () => {
       ],
       icon: Brain,
       status: "Completed",
-      github: "https://github.com/nour-developer1/Market-Basket-analysis",
+      github:
+        "https://github.com/nour-developer1/Market-Basket-analysis/blob/main/Market%20Basket%20analysis.ipynb",
+    },
+    {
+      title: "Amazon Web Scraping",
+      description:
+        "Developed a Python-based web scraping tool to extract product details, prices, and ratings from Amazon for price monitoring and market analysis. The project automates data collection to save time and ensure up-to-date insights.",
+      category: "Data Analysis",
+      technologies: [
+        "Python",
+        "Pandas",
+        "Scikit-learn",
+        "BeautifulSoup",
+        "Requests",
+      ],
+      features: [
+        "Automated extraction of product names, prices, and ratings",
+
+        "Data cleaning and organization for further analysis",
+        "Capability to monitor price changes over time",
+        "Easily adaptable to different product categories",
+      ],
+      icon: Code,
+      status: "Completed",
+      github:
+        "https://github.com/nour-developer1/Amazon-Web-Scraper-Project/blob/main/Amazon%20Web%20Scraper%20Project.ipynb",
     },
     {
       title: "Mental Health Chatbot",
@@ -214,8 +223,8 @@ const ProjectsPage: React.FC = () => {
             </h1>
             <div className="w-24 h-1 bg-blue-500 mx-auto mb-8"></div>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Showcasing strong technical expertise, analytical thinking, and
-              creative problem-solving to deliver impactful results.
+              Innovative AI and data science projects showcasing technical
+              expertise and problem-solving skills.
             </p>
           </motion.div>
 

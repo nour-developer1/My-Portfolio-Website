@@ -87,9 +87,8 @@ const ContactPage: React.FC = () => {
             </h1>
             <div className="w-24 h-1 bg-blue-500 mx-auto mb-8"></div>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Excited to contribute to AI projects and explore new
-              opportunities. Let’s connect and turn innovative ideas into
-              impactful solutions!
+              Ready to collaborate on AI projects or discuss opportunities?
+              Let's connect and build something amazing together!
             </p>
           </motion.div>
 

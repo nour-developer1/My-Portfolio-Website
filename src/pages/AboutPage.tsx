@@ -87,7 +87,7 @@ const AboutPage: React.FC = () => {
             </h1>
             <div className="w-24 h-1 bg-blue-500 mx-auto mb-8"></div>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              AI Engineer | Data Analyst | Problem Solver
+              AI Engineer | Data Analyst | Problem Solver | Lifelong Learner
             </p>
           </motion.div>
 
@@ -131,51 +131,39 @@ const AboutPage: React.FC = () => {
                 </h2>
                 <div className="space-y-4 text-lg text-gray-300 leading-relaxed">
                   <p>
-                    I’m a third-year Computers and AI Engineering student
-                    specializing in Artificial Intelligence Engineering and Data
-                    Analysis, with a strong commitment to transforming data into
-                    actionable insights and intelligent systems. My work blends
-                    academic rigor with real-world application, as I actively
-                    build hands-on expertise through coursework, self-initiated
-                    projects, and continuous upskilling.
+                    I’m a passionate 20-year-old AI Engineer and Data Analyst
+                    based in El Minya, Egypt, currently pursuing my BSc in
+                    Computers and AI Engineering at Beni-Suef National
+                    University. My focus is on developing AI-powered systems in
+                    generative AI, large language models, computer vision, and
+                    data-driven analytics.
                   </p>
 
                   <p>
-                    Currently building a strong foundation for a career as a
-                    Data Analyst and future AI Engineer. I have gained practical
-                    experience in:
+                    My tech journey started at university, where I specialized
+                    in Artificial Intelligence and Data Science, leading
+                    academic projects and gaining practical experience in
+                    machine learning, data analysis, and deep learning
+                    applications. Alongside my studies, I’ve earned
+                    certifications from Microsoft, NVIDIA, Google, SAS, and
+                    LinkedIn Learning, covering areas such as LLMs, deep
+                    learning, analytics, and AI deployment.
                   </p>
-                  <ul>
-                    <li>• Data preprocessing, cleaning, and transformation.</li>
-                    <li>
-                      • Exploratory Data Analysis (EDA) and generating
-                      statistical insights.
-                    </li>
-                    <li>
-                      • Machine Learning — both supervised and unsupervised
-                      models.
-                    </li>
-                    <li>
-                      • Creating dashboards and reports using Power BI and
-                      Tableau.
-                    </li>
-                    <li>
-                      • Python, Pandas, NumPy, Scikit-learn, and data
-                      visualization libraries.
-                    </li>
-                  </ul>
                   <p>
-                    Driven by curiosity and a problem-solving mindset, I stay
-                    current with the latest trends in AI, ML, Big Data, and
-                    cloud-based analytics platforms. I believe in the power of
-                    data to fuel innovation in key sectors such as healthcare,
-                    finance, and smart technologies.
+                    I strive to design intelligent, production-grade solutions
+                    that address real-world problems and create measurable
+                    impact. From building chatbots with LLMs and implementing
+                    OCR and identity extraction pipelines to applying computer
+                    vision models and analytics-driven insights, I enjoy taking
+                    on challenges that bring AI into practical use.
                   </p>
 
                   <p>
-                    My long-term goal is to become an AI engineer capable of
-                    designing and deploying scalable, production-grade
-                    intelligent systems that solve real-world challenges.
+                    I stay updated by reading research papers, contributing to
+                    open-source, and sharing knowledge with the community. My
+                    key interests lie in Generative AI, computer vision, data
+                    analytics, and adaptive learning systems that evolve over
+                    time.
                   </p>
                 </div>
               </div>

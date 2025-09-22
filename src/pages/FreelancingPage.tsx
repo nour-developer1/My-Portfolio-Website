@@ -10,7 +10,7 @@ const FreelancingPage: React.FC = () => {
     {
       title: "Data Analyst Freelance",
       icon: Palette,
-      period: "2025 – Present",
+      period: "2024 – Present",
       description:
         "Analyzed and interpreted complex datasets to provide actionable insights, optimize business processes, and support data-driven decision-making for diverse industries.",
       achievements: [
