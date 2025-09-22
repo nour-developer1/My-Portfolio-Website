@@ -9,7 +9,6 @@
 
 ## 🖼️ Homepage Preview  
 
-## 🖼️ Homepage Preview  
 
 ![Homepage Preview](./img/Screenshot%202025-09-22%20112219.png)  
 
