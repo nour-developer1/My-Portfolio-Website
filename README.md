@@ -1,9 +1,9 @@
 # 🌐 My Portfolio Website  
 
-![Deploy](https://img.shields.io/badge/Deploy-GitHub%20Pages-blue?style=plastic)
-![License](https://img.shields.io/badge/License-MIT-green?style=plastic)
-![Status](https://img.shields.io/badge/Status-Live-success?style=plastic)
-![Made with](https://img.shields.io/badge/Made%20with-HTML%2C%20CSS%2C%20JS-orange?style=plastic) 
+![Deploy](https://img.shields.io/badge/Deploy-GitHub%20Pages-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)
+![Made with](https://img.shields.io/badge/Made%20with-HTML%2C%20CSS%2C%20JS-orange?style=for-the-badge)
 
 ---
 
