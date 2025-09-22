@@ -70,19 +70,3 @@ This combination ensures **clean code, scalability, and maintainability**.
 | **Deployment**  | GitHub Pages |
 | **Other**       | SEO basics, performance optimization |
 
----
-
-## 📂 Project Structure  
-
-```bash
-.
-├── index.html
-├── src/
-│   ├── assets/        # Images, fonts, icons
-│   ├── components/    # Reusable components
-│   ├── pages/         # Page-level components
-│   ├── App.jsx        # Main App component
-│   └── main.jsx       # Entry point
-├── public/            # Static files
-├── vite.config.js     # Vite configuration
-└── README.md
