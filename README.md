@@ -9,7 +9,7 @@
 
 ## 🖼️ Homepage Preview  
 
-![Homepage Preview](./assets/images/homepage.png)    
+![Homepage Preview](./assets/images/homepage.png)  
 
 👉 **Live Demo:** [nour-developer1.github.io/My-Portfolio-Website](https://nour-developer1.github.io/My-Portfolio-Website/)  
 
@@ -36,12 +36,35 @@ It highlights my **skills, projects, and professional journey** in:
 
 ---
 
+## ⚛️ React + Vite Setup  
+
+The portfolio is built using **React** and **Vite**, ensuring fast development and optimized builds.  
+This setup provides **HMR (Hot Module Replacement)**, ESLint rules, and modern tooling.  
+
+### Available Plugins  
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) — uses [Babel](https://babeljs.io/) for Fast Refresh.  
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) — uses [SWC](https://swc.rs/) for blazing-fast builds.  
+
+### ESLint & TypeScript  
+
+For production-grade applications, it’s recommended to:  
+- Use **TypeScript** with type-aware linting rules  
+- Extend the ESLint configuration for stricter code quality  
+- Reference the [Vite React + TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts)  
+- Integrate [`typescript-eslint`](https://typescript-eslint.io) for static analysis  
+
+This combination ensures **clean code, scalability, and maintainability**.  
+
+---
+
 ## 🛠️ Tech Stack  
 
 | Category        | Tools / Libraries |
 |-----------------|-------------------|
-| **Frontend**    | HTML5, CSS3, JavaScript |
-| **Styling**     | Responsive CSS, Flexbox/Grid, CSS animations |
+| **Frontend**    | React, Vite |
+| **Styling**     | CSS3, Responsive Design, Flexbox/Grid |
+| **Linting**     | ESLint, TypeScript ESLint (optional) |
 | **Deployment**  | GitHub Pages |
 | **Other**       | SEO basics, performance optimization |
 
@@ -52,11 +75,12 @@ It highlights my **skills, projects, and professional journey** in:
 ```bash
 .
 ├── index.html
-├── about.html
-├── projects.html
-├── contact.html
-├── assets/
-│   ├── images/        # Images & logos
-│   ├── styles/        # CSS files
-│   └── scripts/       # JS files
+├── src/
+│   ├── assets/        # Images, fonts, icons
+│   ├── components/    # Reusable components
+│   ├── pages/         # Page-level components
+│   ├── App.jsx        # Main App component
+│   └── main.jsx       # Entry point
+├── public/            # Static files
+├── vite.config.js     # Vite configuration
 └── README.md
