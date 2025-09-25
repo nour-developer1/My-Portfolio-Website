@@ -34,7 +34,7 @@ const FreelancingPage: React.FC = () => {
       period: "2025 - Present",
       description:
         "Designed and implemented custom AI models to meet client-specific needs across various industries.",
-      achievements: ["Delivered 2+ custom AI solutions for different clients"],
+      achievements: ["Delivered 2+ custom AI solutions for different clients."],
       skills: [
         "Machine Learning",
         "Computer Vision",

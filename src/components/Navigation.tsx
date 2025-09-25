@@ -140,7 +140,6 @@ const Navigation: React.FC = () => {
                     );
                   })}
                 </div>
-
                 {/* Mobile Menu Footer */}
                 <div className="mt-8 pt-6 border-t border-zinc-800">
                   <div className="text-center">

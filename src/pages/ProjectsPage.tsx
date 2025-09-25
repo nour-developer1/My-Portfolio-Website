@@ -190,10 +190,10 @@ const ProjectsPage: React.FC = () => {
         "AI-powered chatbot designed to provide mental health support and resources. Uses natural language processing to understand user concerns and provide appropriate responses and guidance.",
       category: "NLP & AI",
       technologies: [
-        "Technologies Used",
         "Python",
         "NLP",
         "Machine Learning",
+        "PyTorch",
         "Chatbot Development",
       ],
       features: [
