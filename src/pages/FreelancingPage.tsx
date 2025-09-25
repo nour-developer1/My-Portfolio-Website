@@ -72,7 +72,7 @@ const FreelancingPage: React.FC = () => {
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
               Building diverse solutions in AI and Data Analytics to empower
               businesses and communities with intelligent innovation for clients
-              worldwide.
+              worldwide
             </p>
           </motion.div>
 
