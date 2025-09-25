@@ -14,9 +14,9 @@ const FreelancingPage: React.FC = () => {
       description:
         "Analyzed and interpreted complex datasets to provide actionable insights, optimize business processes, and support data-driven decision-making for diverse industries.",
       achievements: [
-        "Delivered 20+ analytical reports and dashboards improving client operational efficiency and strategic planning.",
-        "Designed automated data pipelines, reducing manual reporting time by 40%.",
-        "Supported clients with predictive and prescriptive analytics for improved forecasting accuracy.",
+        "Delivered 20+ analytical reports and dashboards improving client operational efficiency and strategic planning",
+        "Designed automated data pipelines, reducing manual reporting time by 40%",
+        "Supported clients with predictive and prescriptive analytics for improved forecasting accuracy",
       ],
       skills: [
         "Data Visualization",
@@ -34,7 +34,7 @@ const FreelancingPage: React.FC = () => {
       period: "2025 - Present",
       description:
         "Designed and implemented custom AI models to meet client-specific needs across various industries.",
-      achievements: ["Delivered 2+ custom AI solutions for different clients."],
+      achievements: ["Delivered 2+ custom AI solutions for different clients"],
       skills: [
         "Machine Learning",
         "Computer Vision",
