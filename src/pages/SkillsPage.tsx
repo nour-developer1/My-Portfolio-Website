@@ -174,10 +174,13 @@ const SkillsPage: React.FC = () => {
             className="text-center mb-16"
           >
             <a
-              href="https://drive.google.com/file/d/1QpazLdWI605g6Ohs7n_Vmism5uCIQc-R/view?usp=sharing"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-3 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold transition-colors duration-300"
+              onClick={() =>
+                alert("The CV download it will be available soon!")
+              }
             >
               <Download size={20} />
               <span>Download CV</span>
