@@ -166,7 +166,7 @@ const SkillsPage: React.FC = () => {
             </p>
           </motion.div>
 
-          {/* CV Download */}
+          {/* CV Download 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -185,6 +185,21 @@ const SkillsPage: React.FC = () => {
               <Download size={20} />
               <span>Download CV</span>
             </a>
+          </motion.div>
+*/}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="text-center mb-16"
+          >
+            <button
+              onClick={() => alert("The CV download will be available soon!")}
+              className="inline-flex items-center space-x-3 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold transition-colors duration-300"
+            >
+              <Download size={20} />
+              <span>Download CV</span>
+            </button>
           </motion.div>
 
           {/* Stats */}
