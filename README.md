@@ -41,7 +41,7 @@ It highlights my **skills, projects, and professional journey** in:
 ## ⚛️ React + Vite Setup  
 
 The portfolio is built using **React** and **Vite**, ensuring fast development and optimized builds.  
-This setup provides **HMR (Hot Module Replacement)**, ESLint rules, and modern tooling.  
+This setup provides **HMR (Hot Module Replacement)**, ESLint rules, and modern .  
 
 ### Available Plugins  
 
